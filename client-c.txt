@@ -2,3 +2,22 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+start
+
+// variables //
+
+product = 0
+package = 2 products
+case = 50 packages
+
+// count products in packages //
+
+If
+  product = 2  
+    package count + 1
+
+If
+  package count = 50
+    case count + 1
+    
+    end

@@ -2,3 +2,45 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+Start
+
+// define starting location and destination by gridding out the warehouse with an x, and y axis.//
+
+x axis = 0-10
+Y axis = 0-10
+
+x axis 0 = north
+x axis 10 = south
+
+y axis 0 = west
+y axis 10 = east
+
+
+StartLocation = x axis 0, y axis 0
+
+destination = x axis 4, y axis 8
+
+//guiding the customer to their destination//
+
+If
+    location = x axis 4, y axis 8
+        display "You have arrived at your location!"
+
+while
+   x axis location > x axis 4
+        display "Move North"
+
+while
+   x axis location < x axis 4
+        display "Move South"
+
+while
+   y axis location < y axis 8
+        display "Move East"
+
+while
+   y axis location > y axis 8
+        display "Move West"
+
+End

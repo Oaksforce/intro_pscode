@@ -2,3 +2,34 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Start
+
+// setting up number of guesses //
+
+playerGuesses = 0
+
+If
+     playerGuesses = 3
+        Display "Game Over!"
+
+// computer generates random number between 1-10. //
+
+secretNumber = random# 1-10
+
+// inputting guesses //
+
+If
+   playerInput < secretNumber
+     Display "Too High!"
+       playerGuesses + 1
+
+If
+   playerInput > secretNumber
+     Display "Too Low!"
+       playerGuesses + 1
+
+If
+   playerInput = secretNumber
+     Display "Congratulation!"
+
+     End
